@@ -28,18 +28,6 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // Penerima notifikasi: nama, tim, dan email.
-        $hosts = [
-            ['Sari Putri', 'Tim Operasional'],
-            ['Andi Wijaya', 'HRD'],
-            ['Maya Sari', 'Bisnis & Kemitraan'],
-            ['Rizky Pratama', 'Keuangan'],
-            ['Muhammad Farid', 'Tim Operasional'],
-        ];
-        foreach ($hosts as [$name, $team]) {
-            Host::firstOrCreate(['name' => $name], [
-                'team' => $team,
-                'email' => strtolower(str_replace(' ', '.', $name)).'@example.com',
-            ]);
-        }
+        
     }
 }
