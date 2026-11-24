@@ -21,10 +21,10 @@ class DatabaseSeeder extends Seeder
 
         // Akun kantor (kata sandi awal: "password", segera ganti).
         User::firstOrCreate(['email' => 'levi@ruangkarya.co.id'], [
-            'name' => 'Levi', 'password' => 'password-admin', 'role' => 'admin', 'can_export_phone' => true,
+            'name' => 'Levi', 'password' => 'password', 'role' => 'admin', 'can_export_phone' => true,
         ]);
         User::firstOrCreate(['email' => 'resepsionis@ruangkarya.co.id'], [
-            'name' => 'Resepsionis', 'password-resepsionis' => 'password', 'role' => 'resepsionis',
+            'name' => 'Resepsionis', 'password' => 'password', 'role' => 'resepsionis',
         ]);
 
         // Penerima notifikasi: nama, tim, dan email.
