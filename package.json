@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "echo \"Aset sudah statis di public/css dan public/js; tidak perlu build.\"",
+        "dev": "echo \"Tidak ada bundler.\""
+    }
+}
