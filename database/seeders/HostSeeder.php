@@ -27,7 +27,8 @@ class HostSeeder extends Seeder
             ['Arif Muhazalin', 'DPA', 'arifdpa@yahoo.co.id', '+62 852-5818-1063'],
             ['Muhammad Farid', 'Staff SDM', 'm.faridd73@gmail.com', '+62 822-8517-0751'],
             ['Fajar Fathoni', 'Logistik dan Sertifikasi Sabang', 'fathoniarifinfajar@gmail.com', '+62 822-2841-4292'],
-            ['Muhammad Farid', 'Staff SDM', 'm.faridd73@gmail.com', '+62 821-1116-3608'],
+            ['Aswandi Utomo', 'Kepala Cabang', 'aswandiutomo82@gmail.com', '+62 821-1116-3608'],
+            ['Agus Subiantoro', 'Staff DPA', 'agussubian@gmail.com', '+62 811-8474-9501'],
         ];
 
         foreach ($hosts as [$name, $team, $email, $phone]) {
